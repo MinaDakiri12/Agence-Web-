@@ -1,0 +1,157 @@
+
+/* html,body{
+    height:100%;
+    
+    
+}
+
+#home{
+
+    height: 100%;
+ 
+}
+#cover{
+
+     background-image: url('../images/1.png');
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     height: 100%;
+}
+#content-inner{
+    font-size: 72px;
+    color: brown;
+}
+
+#Heading{
+    width:100%;
+    height:100%;
+}
+*/
+
+*
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+#cover{
+  background-image:url(/images/33.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+}
+.header{
+    height: 100px;
+    padding:0 20px ;
+    color:white ;
+}
+.logo{
+  width: 80px;
+  height: auto;
+}
+.menu{
+    float: right;
+    line-height: 60px;
+}
+.menu a{
+    color: white;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding:  19px;
+    transition: 0.4s;
+    
+}
+.show-menu-btn ,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    
+}
+.show-menu-btn{
+    float: right;
+}
+.show-menu-btn i{
+    line-height: 100px;
+
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+    color: #34C6D3;
+}
+#checkbox{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+@media screen and (max-width:800px) {
+    .show-menu-btn,.hide-menu-btn{
+        display:block;
+        
+    } 
+  .menu{
+      position: fixed;
+      widows: 100%;
+      height: 100vh;
+      background:#64707B;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 8Opx 0;
+      line-height:normal;
+      transition: 0.7s;
+  } 
+  .menu a{
+      display: block;
+      padding: 20px;
+  }
+  .hide-menu-btn{
+      position: absolute;
+      top: 40px;
+      right: 4px;
+      
+  }
+  #checkbox:checked ~ .menu{
+      right: 0;
+  }
+}
+#content {
+    color:white;
+    font-size: 45px;
+    font-weight:750;
+    margin: top=40px right=0px bottom=32px left=0px;
+    text-transform: uppercase;
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    text-align: center;
+    }
+
+    .btn:hover{
+        color:#34C6D3;
+    }
+.btn{
+    border: 1px solid #41464B;
+    background:  rgba(12, 12, 12, 0.5);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative; 
+    color: white;  
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #34C6D3;
+    z-index: -1;
+    transition: 0.8s;
+}
