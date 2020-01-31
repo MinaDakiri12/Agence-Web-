@@ -41,7 +41,7 @@ body{
   background-color: white !important;
 }
 
-h1   {
+.Title    {
   color: #b2dffb;
   font-size: 250%;
   margin-top: 200px;
@@ -84,4 +84,42 @@ p {
   transform: translate(-50%, -50%);
   color: white;
   
+}
+ /*service*/
+
+
+ #services{
+   padding-top: 3%;
+   font-family: 'Roboto Condensed', sans-serif;
+ }
+
+.Title2{
+  
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+
+  
+}
+.Br {
+  width: 200px;
+  height: 4px;
+  margin-left: 41%;
+  background-color: #b2dffb;
+  
+}
+
+
+.col-md-4 {
+
+  padding-top: 5%;
+}
+
+.fa-inverse{
+  background-color: #b2dffb;
+  border-radius: 50%;
+  
+}
+
+.service-heading{
+  padding-top: 9%;
 }
