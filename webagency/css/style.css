@@ -9,165 +9,205 @@
   #000 : il est toujours présent 
 ===============================================================*/
 
-
-body{
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 0px;
-  padding: 0px;
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 /*Home-Section*/
 
- #cover{
-  background-image:url(/img/18084.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: relative;
+#cover {
+    background-image: url("/Agency-Web-dev-zineb/webagency/img/18084.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
 }
 
-
-#LOGO{
-  width: 60px;
-  
+#LOGO {
+    width: 60px;
 
 }
-#nv1{
-  background-color: white !important;
+#nv1 {
+    background-color: white !important;
 }
 
-.Title    {
-  color: #b2dffb;
-  font-size: 250%;
-  margin-top: 200px;
-  
- 
+.Title {
+    color: #b2dffb;
+    font-size: 250%;
+    margin-top: 200px;
+
 }
 
 p {
-  margin-top: 40px;
-  
-  font-size: 130%; 
-  color: black;
-  font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 40px;
 
-}
-  
-.btn-general{
-  color: rgb(253, 247, 247);
-  font-size: 16;
-  text-decoration: none;
-  padding: 15px 20px;
-  background: rgb(14, 13, 13);
-  border-radius: 2px;
-  margin-left: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-family: 'Roboto Condensed', sans-serif;
-
-}
-.btn-white:hover{
-  background-color: #b2dffb
+    font-size: 130%;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
-.Heading{
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  
+.btn-general {
+    color: rgb(253, 247, 247);
+    font-size: 16;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: rgb(14, 13, 13);
+    border-radius: 2px;
+    margin-left: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
- /*service*/
+.btn-white:hover {
+    background-color: #b2dffb;
+}
 
+.Heading {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 
- #services{
-   padding-top: 3%;
-   font-family: 'Roboto Condensed', sans-serif;
- }
+}
+/*service*/
 
-.Title2{
-  
-  font-family: 'Roboto Condensed', sans-serif;
-  color: black;
+#services {
+    padding-top: 3%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
-  
+.Title2 {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+
 }
 .Br {
-  width: 200px;
-  height: 4px;
-  margin-left: 41%;
-  background-color: #b2dffb;
-  
-}
+    width: 200px;
+    height: 4px;
+    margin-left: 41%;
+    background-color: #b2dffb;
 
+}
 
 .col-md-4 {
 
-  padding-top: 5%;
+    padding-top: 5%;
 }
 
-.fa-inverse{
-  background-color: #b2dffb;
-  border-radius: 50%;
-  
+.fa-inverse {
+    background-color: #b2dffb;
+    border-radius: 50%;
+
 }
 
-.service-heading{
-  padding-top: 9%;
+.service-heading {
+    padding-top: 9%;
 }
-
-
 
 /*Qui-sommes-nous*/
 
-#Qui-sommes-nous{
-  display: inline-flex;
-
+#Qui-sommes-nous {
+    display: inline-flex;
 
 }
 
-.Part1{
+.Part1 {
+    text-align: center;
+    width: 50%;
+    margin-top: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.Part2 {
+
+    width: 50%;
+}
+
+.Border {
+
+    width: 200px;
+    height: 4px;
+    margin-left: 35%;
+    background-color: #b2dffb;
+}
+#img1 {
+    width: 100%;
+    height: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5%;
+
+    border-radius: 15px 50px;
+}
+@media (max-width:768px) {
+    #Qui-sommes-nous {
+        display: block;
+
+    }
+
+}
+/*Nos Realisations  */
+
+#Realisation{
+    padding-top: 10%;
+}
+.T{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ .TB{
+     padding-top: 5%;
+ }
+/* Team Section */
+
+#section__team{
+    padding-top: 7%;
+}
+
+.tit{
+    color: black;
+    font-size: 250%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.Border2 {
+
+    width: 200px;
+    height: 4px;
+    margin-left: 42%;
+    background-color: #b2dffb;
+}
+
+
+
+.owl-dot{    display: inline-block;    height: 15px !important;    width: 15px !important;    background-color: #000 !important;    border-radius: 50%;    margin: 0 6px;  } .owl-dots{   text-align: center; } .owl-dot.active{   background-color: #7c9ee6 !important; }
+.owl-dot{
+   display: inline-block;
+   height: 15px !important;
+   width: 15px !important;
+   background-color: #000 !important;
+   border-radius: 50%;
+   margin: 0 6px;
+ }
+.owl-dots{
   text-align: center;
-  width: 50%;
-  margin-top: 5%;
-  font-family:'Roboto Condensed', sans-serif ; 
- 
-
 }
- .Part2{
- 
-   width: 50%;
- }
-
-.Border{
-
-  width: 200px;
-  height: 4px;
-  margin-left: 35%;
-  background-color: #b2dffb;
+.owl-dot.active{
+  background-color: #7c9ee6 !important;
 }
-#img1{
-  width: 100%;
-  height:80% ;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top:5%;
 
-  border-radius: 15px 50px; 
+.item{
+    padding-top: 20%;
 }
- @media (max-width:768px){
-  #Qui-sommes-nous{
-    display: block;
-   
-  }
-   
- }
- 
