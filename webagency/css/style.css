@@ -19,6 +19,15 @@ body {
     box-sizing: border-box;
 }
 
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    text-transform: uppercase;
+    text-decoration-color: lightblue;
+    text-shadow: lightskyblue 1px 0 10px;
+}
+
 /*Home-Section*/
 
 #cover {
@@ -255,3 +264,175 @@ p {
   {
      margin-left:6%;
   }
+
+  /* pricing table*/
+
+#pricing  .col{
+    float: left;
+    width: 20vw;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+
+#pricing .price-box{
+    background-color: #fff;
+    color: #555;
+    list-style: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+#pricing .price-box:hover, .price-box.best{
+    box-shadow: 0 10px 15px 0 #000;
+
+}
+#pricing .price-box .header{
+    background-color:#b2dffb;
+    color: black;
+    font-size: 25px;
+
+}
+
+#pricing .price-box li{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+#pricing .price-box .emph{
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+#pricing .buttons{
+    background-color:black;
+    border:none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+
+}
+ 
+
+#pricing-table > div.col.aos-init.aos-animate > ul > li:nth-child(8) > a:hover {
+    background-color: #4caF50;
+}
+
+#pricing-table > div:nth-child(1) > ul > li:nth-child(8) > a:hover {
+    background-color:  #4caF50;
+}
+
+
+#pricing .col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+
+
+/*carousel*/
+
+
+
+
+#testimonials .carousel {
+	margin: 50px auto;
+    padding: 0 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+#testimonials .carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+#testimonials .carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+#testimonials .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+#testimonials .carousel .testimonial {
+	padding: 30px 0 10px;
+}
+#testimonials .carousel .overview {	
+	font-style: italic;
+}
+#testimonials .carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+#testimonials .carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+#testimonials .carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+#testimonials .carousel .carousel-indicators {
+	bottom: -40px;
+}
+#testimonials .carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+#testimonials .carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+    width: 2%;
+    height: 2%;
+}
+#testimonials .carousel-indicators li.active {	
+	background:lightblue;		
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+    width: 2%;
+    height: 2%;
+}
+
+#myCarousel > a.carousel-control.left.carousel-control-prev > i {
+    color: lightblue;
+    
+}
+
+#myCarousel > a.carousel-control.right.carousel-control-next > i {
+    color: lightblue;
+}
+
+
+
+/* pricing table media querry*/
+
+@media(max-width:900px){
+ .col{
+    width: 100%;
+}
+}

@@ -39,6 +39,7 @@
     <!--owl carousel-->
     <link rel="stylesheet" href="/Agency-Web-dev-zineb/webagency/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/Agency-Web-dev-zineb/webagency/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -295,7 +296,116 @@
     </div>
   
   </section>    
+<!--section testimonial-->
 
+<section id="testimonials">
+
+  <div class="title-content title-content-white">
+  <h2 data-aos="zoom-in">Testimonials</h2>
+  </div>
+  <section id="box-content" data-aos="fade-up">
+	<div class="row">
+		<div class="col-md-12 col-center m-auto">
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item carousel-item active">
+						<div class="img-box"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" alt="img"></div>
+						<p class="testimonial">“You made it so simple. My new site is so much faster and easier to work with than my old site.”</p>
+						<p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" alt="img2"></div>
+						<p class="testimonial"> “Their work on our website and Internet marketing has made a significant different to our business.”
+            </p>
+						<p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" alt="img3"></div>
+						<p class="testimonial"> “Wow. I just updated my site and it was SO SIMPLE. Thanks for being so awesome. High fives!”</p>
+						<p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+					</div>
+				</div>
+				<!-- Carousel controls -->
+				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+
+</section>
+</section>
+
+
+<!--section testimonial-->
+
+<br>
+<br>
+<br>
+
+<!--section pricing-->
+<section id="pricing">
+  <div class="title-content">
+  <h2 data-aos="zoom-in">Pricing</h2>
+</div>
+<div class="container" id="pricing-table" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+
+<div class="col">
+    <ul class="price-box" data-aos="flip-left">
+        <li class="header">Basic</li>
+        <li class="emph"><strong>120 dh</strong> </li>
+        <li><strong>20GB</strong> disk space</li>
+        <li><strong>10GB</strong> data transfer</li>
+        <li><strong>2</strong> domains</li>
+        <li><strong>50</strong> email accounts</li>
+        <li><strong>2</strong> ftp accounts</li>
+        <li class="emph"><a href="#" class="buttons">GET</a></li> 
+  
+    </ul>
+</div>
+
+
+<div class="col" data-aos="flip-left">
+  <ul class="price-box best">
+      <li class="header header-green">Starter</li>
+      <li class="emph"><strong>240 dh</strong> </li>
+      <li><strong>75GB</strong> disk space</li>
+      <li><strong>50GB</strong> data transfer</li>
+      <li><strong>10</strong> domains</li>
+      <li><strong>100</strong> email accounts</li>
+      <li><strong>unlimited</strong> ftp accounts</li>
+      <li class="emph"><a href="#" class="buttons">GET</a></li> 
+
+  </ul>
+</div>  
+<div class="col" data-aos="flip-left">
+  <ul class="price-box">
+      <li class="header">Enterprise</li>
+      <li class="emph"><strong>480 dh</strong> </li>
+      <li><strong>75GB</strong> disk space</li>
+      <li><strong>100GB</strong> data transfer</li>
+      <li><strong>unlimited</strong> domains</li>
+      <li><strong>unlimited</strong> email accounts</li>
+      <li><strong>unlimited</strong> ftp accounts</li>
+      <li class="emph"><a href="#" class="buttons">GET</a></li> 
+
+  </ul>
+</div>
+</div>
+</section>
+
+<!--section pricing-->
 
 
 
@@ -330,7 +440,10 @@
 })
    </script>
   
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 
 </body>
 
